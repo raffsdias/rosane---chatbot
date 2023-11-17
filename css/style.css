@@ -1,8 +1,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+.color1 {
+    color: #ffff;
+}
+.color2 {
+    color: #676f9d;
+}
+.color3 {
+    color: #424769;
+}
+.color4 {
+    color: #2d3250;
+}
+.color5 {
+    color: #f9b17a;
+}
+
+
+/* GENERAL STYLE */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
+}
+
+.emphasis {
+    color: #f9b17a;
+}
+
+body {
+    background-color: #2d3250;
+}
+
+hr {
+    margin: 5px;
+}
+
+/* HEADER STYLE */
+
+.container-header {
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container-header > button {
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    font-weight: 800;
+    background-color: #424769;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    transition: .5s;
+    color: #fff;
+}
+
+.container-header > button:hover {
+    outline: 1px solid #29221f;
+    background-color: #676f9d;
+}
+
+
+/* MAIN STYLE */
+
+.container-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.title, .subtitle {
+    color: #f9b17a;
+    margin: 10px 10px;
+    padding: 20px;
+}
+
+.chat-bot {
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+}
+
+/* FOOTER STYLE */
+
+.container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+    padding: 20px;
+    gap: 20px;
+    line-height: 30px;
+    color: #f9b17a;
+}
+
+.container-footer > a:link {
+    color: currentColor;
 }
